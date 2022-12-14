@@ -9,8 +9,8 @@ public class Ej6 {
 		int[] nums= new int[8];
 		System.out.println("So");
 		for(int sube=0;sube<nums.length;sube++) {
-			int num=sc.nextInt();
-			if (num%2==1) {
+			sube=sc.nextInt();
+			if (nums[sube]%2==1) {
 				System.out.println("Es impar");
 			}
 			else {
