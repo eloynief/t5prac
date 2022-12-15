@@ -14,6 +14,12 @@ public class Ej2 {
 		 }
 		 sysoutprint(Arrays.toString(tabla));
 		 */
+		
+		
+		
+		
+		
+		
 	}
 
 }
