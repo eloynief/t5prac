@@ -1,5 +1,7 @@
 package array;
 
+import java.util.Scanner;
+
 public class Ej2 {
 
 	public static void main(String[] args) {
@@ -14,6 +16,10 @@ public class Ej2 {
 		 }
 		 sysoutprint(Arrays.toString(tabla));
 		 */
+		Scanner sc= new Scanner(System.in);
+		int[] nums= new int[10];
+		
+		System.out.println("pon");
 		
 		
 		
