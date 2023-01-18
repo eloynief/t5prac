@@ -3,7 +3,7 @@ package copypasteof;
 import java.util.Arrays;
 
 public class Ej6 {
-
+//done
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int tabla[] = new int[100];
