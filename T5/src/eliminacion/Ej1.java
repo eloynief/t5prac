@@ -14,24 +14,34 @@ public class Ej1 {
 		int valor=0;
 		//el valor random
 		int num=0;
-		el int que busca
+		//el int que busca los valores en la tabla
 		int res=Arrays.binarySearch(nums, valor);
-		for(;valor<nums.length;valor++) {
-			num=(int) (Math.random() * 100 + 1);
-			
-			
+		//generacion de valores en el for
+		for (int i=0; i<nums.length;i++) {
+			//crear valor random
+			num=(int)(Math.random()*100+1);
+			nums[i]=num;
+			System.out.println(num);
 		}
 		System.out.println();
-		while (){
-			//
-			if(res%2==1) {
+		
+		//
+		while (valor<nums.length){
+			//si el int que escoge uno de los valores de la tabla, la tabla se hace más pequeña
+			
+			
+			//si es par
+			if(nums[valor]%2==0) {
+				valor++;
+			}
+			//si es impar
+			else {
+				//System.arraycopy(sc, num, nums, res, res);
 				nums=Arrays.copyOf(nums, nums.length-1);
-				
-				
 				
 			}
 		}
-		
+		System.out.println(Arrays.toString(nums));
 	}
 
 }
