@@ -7,7 +7,7 @@ public class Ejemplo {
 		int[] [] num= new int[20] [5];
 		for(int i=0; i<20;i++) {
 			for (int j=0; i<5;i++) {
-				System.out.println(num [i][j] + " ");
+				System.out.print(num [i][j] + " ");
 			}
 			System.out.println();
 		}
