@@ -8,7 +8,7 @@ public class Ej6 {
 	public static void main(String[] args) {
 Scanner sc= new Scanner(System.in);
 		
-		//
+		//variables
 		int[][] nums= new int[6][10];
 		int minx=Integer.MAX_VALUE;
 		int maxx=0;
