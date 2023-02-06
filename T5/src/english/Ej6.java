@@ -47,6 +47,9 @@ public class Ej6 {
 			nummult[j]=multiply;
 		}
 		System.out.println(Arrays.toString(nummult));
+	
+	
+		
 	}
 
 }
